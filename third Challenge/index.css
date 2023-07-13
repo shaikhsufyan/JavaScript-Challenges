@@ -1,0 +1,92 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 23px;
+
+}
+nav h1{
+    font-size: 34px;
+}
+nav ul li {
+    list-style: none;
+    margin-top: 13px;
+     
+}
+ul li a{
+    margin-inline: 25px;
+    font-size: 19px;
+}
+nav button{
+    width: 100px;
+    height: 38px;
+    background-color: rgb(53, 53, 248);
+    border: none;
+    font-size: 22px;
+    margin-top: 6px;
+    color: white;
+    
+}
+.icon i{
+    font-size: 35px;
+    margin-top: 6px;
+    cursor: pointer;
+    color: white;
+    display: none;
+}
+ 
+
+  .createNav{
+   
+     position: absolute;
+     background-color: black;
+     color: white;
+     width:100%;
+     border-radius: 4px;
+     margin-top: 11px;
+     padding: 22px;
+     transition: 0.7s ease;
+     /* margin: 11px; */
+
+  }
+   
+  .createNav P{
+     
+      
+     /* width: 2px; */
+    padding: 12px;
+    font-size: 18px;
+   
+      
+     
+  }
+  .createNav p:hover{
+    background-color: #c2c1c1;
+    width: 25%;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .secNav{
+    color: white;
+  }
+
+  @media only screen and (max-width: 750px) {
+    
+    .icon i{
+        display: block;
+        color: white;
+    }
+    nav ul{
+        display: none;
+    }
+    nav button{
+        display: none;
+    }
+
+  }
+   

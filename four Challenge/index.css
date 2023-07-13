@@ -1,0 +1,56 @@
+ body{
+    background-color: rgb(3, 77, 77);
+ }
+ form{
+    position: absolute;
+    width: 300px;
+    padding: 22px;
+    border-radius: 4px;
+    background-color: #fff;
+ }
+ form input{
+    position: relative;
+    width:  85%;
+    padding: 6px;
+    outline: none;
+ }
+ .input{
+   margin-top: 18px;
+   
+
+ }
+ .input label{
+    font-size: 19px;
+ }
+ #male{
+    position: relative;  
+    top: -20px;
+     left: -18px;
+ }
+ #female{
+   position: relative;  
+   top: -20px;
+    left: -18px;
+}
+
+.btn{
+    text-align: center;
+    margin-top: 22px;
+}
+#gender{
+   margin-top: 1px;
+}
+ small{
+     
+    position: absolute;
+    left: 22px;
+    margin-top: 30px;
+     font-size: 15px;
+     color: rgb(248, 4, 4);
+     
+     
+ }
+  
+input[name="gender"] {
+	accent-color: green;
+}

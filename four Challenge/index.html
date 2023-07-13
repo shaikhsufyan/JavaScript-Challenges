@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <form>
+        <h1>Validation Form</h1>
+        <div class="input">
+            <label for="username">Name:</label> <br>
+            <input type="text" id="userName" value="" name="username" placeholder="required Alphabats only" required  autocomplete="off">
+          <small id="error"></small>
+            
+        </div>
+
+        <div class="input">
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="E "   > 
+            <small id="emails"></small>
+        </div>
+
+        <div class="input">
+            <label for="number">Number:</label><br>
+            <input type="number" id="number" name="number" placeholder="required Number only"  required>  
+            <small id="num"></small>
+        </div>
+
+        <div class="input">
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" placeholder="required " required >  
+            <small id="pass"></small>
+        </div>
+
+        <div class="input">
+            <label for="age">Age:</label><br>
+            <input type="number" id="age" name="age" placeholder="required"  required>  
+            <small id="ages"></small>
+
+        </div>
+  
+        <div class="input">
+
+
+            <label for="username">Male:</label> 
+            <input type="radio" id="male"  name="gender" >  
+            <label for="username">Female:</label>
+            <input type="radio"  id="female" name="gender"  >  
+            <small id="gender"></small>
+
+
+
+        </div  >
+
+        <div class="input">
+            <label for="date">Date:</label><br>
+            <input type="date" id="date" value="" placeholder="Month-Date-Year" name="date"  required>  
+            <small id="dates"></small>
+
+
+        <div class="input">
+            <label for="color">Color:</label><br>
+            <input type="color" id="color" name="color" placeholder="required"  required > 
+            <small id="colors"></small>
+
+        </div >
+
+
+        <div class="btn">
+            <button onclick="myFun()">Submit</button>
+        </div>
+    </form>
+ 
+    
+    <script src="index.js"></script>
+</body>
+
+</html>
